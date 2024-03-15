@@ -30,6 +30,7 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 - zipfile
 - datetime
 - scikit-learn
+- multipage (adapted from https://github.com/prakharrathi25/data-storyteller/blob/main/multipage.py)
 
 # Data Source
 
