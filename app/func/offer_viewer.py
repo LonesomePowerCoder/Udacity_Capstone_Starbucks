@@ -7,12 +7,19 @@ import json
 import pickle
 
 def app():
+    """Method to calculate the probability that a customer will actually view an offer sent. The result is based on
+    user input from the sidebar. It uses a pre-computed model deposited as pickle file. The model is set up in the
+    process_data.py script"""
 
-    st.title("Offer Viewer")
+    st.title("Measuring the success of an offer")
+    st.subheader("This app will calculate the probability that a customer will view an offer sent. Please select your"
+                 "parameters in the sidebar to the left")
+
+    #load pre-calculated model from repository
     file = open('models/viewer_model.pkl', 'rb')
+    cv = pickle.load(file)
 
-    clf = pickle.load(file)
-
+    #building streamlit sidebar items
     with st.sidebar:
         buttonClick = st.button('Calculate')
         st.header('Premises')
@@ -28,6 +35,7 @@ def app():
         ch_web = st.number_input('Offer via Web', min_value=0, max_value=1, step=1, value=1)
         offer_type = st.radio('Offer type', options=['bogo', 'discount', 'informational'])
 
+    #Convert user input from radio buttons to binary variables
     if buttonClick:
         if gender == 'F':
             F = 1
@@ -55,13 +63,15 @@ def app():
             discount = 0
             informational = 1
 
+        #set up the DataFrame with a new observation
         X_test = pd.DataFrame(
             columns=['cumsum_views', 'age', 'income', 'member_days', 'F', 'M', 'O', 'duration', 'ch_email', 'ch_mobile',
                      'ch_social', 'ch_web', 'bogo', 'discount', 'informational'])
 
         X_test.loc[0] = [views, age, income, member_days, F, M, O, duration, ch_email, ch_mobile, ch_social, ch_web, bogo, discount, informational]
 
+        #Predict probability of viewing an offer
+        y_pred_test = cv.predict_proba(X_test)
 
-        y_pred_test = clf.predict_proba(X_test)
-
-        st.metric(f'Probability of completing an offer w/o viewing is', value=f'{round(y_pred_test[0,1]*100,2)} %')
+        #Display the metric
+        st.metric(f'Probability of viewing an offer is', value=f'{round(y_pred_test[0,1]*100,2)} %')
