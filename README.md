@@ -1,6 +1,63 @@
 # Udacity Capstone Starbucks
 This repo hosts all files for the Capstone Project of the Udacity "Data Scientist" nanodegree program
 
+# High-level overview
+
+
+
+# Description of Input Data
+
+
+
+# Strategy for solving the problem
+
+
+
+# Discussion of the expected solution
+
+
+
+# Metrics with justification
+
+
+
+# EDA
+
+
+
+# Data Preprocessing
+
+
+
+# Modeling
+
+
+
+# Hyperparameter Tuning
+
+
+
+# Results
+
+
+
+# Comparison Table
+
+
+
+# Conclusion
+
+
+
+# Improvements
+
+
+
+# Acknowledgement
+
+I would like thank Starbucks for providing the dataset to the Udacity "Data Scientist" nanodegree program.
+
+
 # Data & Code
 
 The datasets are json files, which were zipped due to filesize restrictions in Github. 
@@ -35,7 +92,3 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 # Data Source
 
 All data are provided by Udacity, Inc. as part of the "Data Scientist" nanodegree program
-
-# Acknowledgements
-
-I would like thank Starbucks for providing the dataset to the Udacity "Data Scientist" nanodegree program.
