@@ -16,12 +16,23 @@ Q1. What is the probability of viewing an offer based on user statistics and off
 
 Q2. What is the probability of completing an offer w/o viewing based on user and offer characteristics?
 
-
-
+For both questions, a machine learning model is trained and afterwards tested against unknown data.
 
 # Discussion of the expected solution
 
+The workflow is as follows:
 
+Pre-Calculations:
+
+1. Data import
+2. Data processing
+3. Data modelling
+4. Hyper-parameter tuning
+5. Depositing pre-calculated models (pickle files)
+
+The web app
+
+The user of the web app is required to select between Q1 and Q2. Then, he or she can calculate probabilities for either of those questions. The results allow the user to indicate, which customer group should be adressed by offers and which not.
 
 # Metrics with justification
 
