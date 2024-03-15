@@ -13,6 +13,7 @@ All data are provided by Udacity, Inc. as part of the "Data Scientist" nanodegre
 The goal of this project is to leverage Starbucks customer and offer data, in order answer the following two questions:
 
 Q1. What is the probability of viewing an offer based on user statistics and offer characteristics?
+
 Q2. What is the probability of completing an offer w/o viewing based on user and offer characteristics?
 
 
