@@ -62,6 +62,8 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 
 # Data Preprocessing
 
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/0be5b540-7620-4f02-bce1-7b83178107b3)
+
 # Modeling
 
 For modelling, the random forest classifier was used as it performs quite well in classification tasks. Random Forest is an ensemble learning method used for classification and regression tasks. It builds multiple decision trees using bootstrapped samples and random feature selection. The final prediction is determined by aggregating the predictions of individual trees (mode for classification, average for regression).
