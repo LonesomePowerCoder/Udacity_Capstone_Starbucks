@@ -45,7 +45,7 @@ For evaluation, the balanced accuracy score was used. The balanced accuracy scor
 The datasets are json files, which were zipped due to filesize restrictions in Github. 
 
 The two models to answer the questions below, are pre-calculated and deposited as pickle files. Those models can be executed by running "models/process_data.py"
-The models are used in an interactive web app (streamlit), which can be executed with the folowwing command line expression "streamlit run app/run.py"
+The models are used in an interactive web app (streamlit), which can be executed with the following command line expression "streamlit run app/run.py"
 
 # Installations
 
@@ -64,10 +64,13 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 
 # Modeling
 
-
+For modelling, the random forest classifier was used as it performs quite well in classification tasks. Random Forest is an ensemble learning method used for classification and regression tasks. It builds multiple decision trees using bootstrapped samples and random feature selection. The final prediction is determined by aggregating the predictions of individual trees (mode for classification, average for regression).
 
 # Hyperparameter Tuning
 
+To finetune the model, a hyperparameter tuning based on grid search and cross-validation (using GridSerchCV) was conducted:
+
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/615adea7-8a59-42c0-ab88-d8c727ede794)
 
 
 # Results
