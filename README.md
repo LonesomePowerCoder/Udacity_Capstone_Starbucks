@@ -36,7 +36,7 @@ The user of the web app is required to select between Q1 and Q2. Then, he or she
 
 # Metrics with justification
 
-
+For evaluation, the balanced accuracy score was used. The balanced accuracy score is an important metric, especially in scenarios where class imbalance exists within the dataset. Class imbalance refers to situations where the number of observations in each class is not evenly distributed. In such cases, accuracy alone might not be an adequate measure of model performance.
 
 # EDA
 
