@@ -75,12 +75,11 @@ To finetune the model, a hyperparameter tuning based on grid search and cross-va
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/615adea7-8a59-42c0-ab88-d8c727ede794)
 
 
-# Results
+# Results & Evaluation
 
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/0040871f-81e8-492a-8b6f-73f7ee8b7973)
 
-
-# Comparison Table
-
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/e7487658-96c4-423a-bd41-7cb37a116d66)
 
 
 # Conclusion
