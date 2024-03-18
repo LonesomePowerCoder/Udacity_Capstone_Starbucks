@@ -40,6 +40,12 @@ For evaluation, the balanced accuracy score was used. The balanced accuracy scor
 
 # EDA
 
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/d7f03fa3-0bf3-4d8b-9cea-6f5a7e70ddf6)
+
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/6ed1eb8e-1f81-403e-a0de-ce1d055a3b58)
+
+
+
 # Data & Code
 
 The datasets are json files, which were zipped due to filesize restrictions in Github. 
