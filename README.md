@@ -2,7 +2,8 @@
 This repo hosts all files for the Capstone Project of the Udacity "Data Scientist" nanodegree program
 
 # High-level overview
-This is the final project, a.k.a. Capstone Project which is part of the Udacity "Data Scientist" nanodegree program.
+
+In this project, simulated Starbucks data are used to train a machine learning model in order to judge whether it is sensible to send an offer via Starbucks mobile rewards app or not. From business perspective, this is very important to do, because advertisement is more tailored to the customer. Moreover, costs can be significantly saved through not sending unwanted offers and also by not place discounts when the customers is going to buy products anyway. A guidance for those kind of questions are is pursued by the analysis.
 
 # Description of Input Data
 The dataset was based on Starbucks rewards mobile app was simulated. It is supposed to imitate customer behaviour w.r.t. purchasing and viewing/completing offers. For all customers there are records of different events, e.g. receiving offers, opening offers and making purchases. For incentivization, customers can receive three types of offers: BOGO (buy one get one free), Discount and informational (no reward).
@@ -38,13 +39,13 @@ The user of the web app is required to select between Q1 and Q2. Then, he or she
 
 For evaluation, the balanced accuracy score was used. The balanced accuracy score is an important metric, especially in scenarios where class imbalance exists within the dataset. Class imbalance refers to situations where the number of observations in each class is not evenly distributed. In such cases, accuracy alone might not be an adequate measure of model performance.
 
+
+
 # EDA
 
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/d7f03fa3-0bf3-4d8b-9cea-6f5a7e70ddf6)
 
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/6ed1eb8e-1f81-403e-a0de-ce1d055a3b58)
-
-
 
 # Data & Code
 
