@@ -85,11 +85,27 @@ To finetune the model, a hyperparameter tuning based on grid search and cross-va
 
 # Conclusion
 
+In conclusion, the model offers a good robust and efficient solution for determining the suitability of offers for distribution. By leveraging advanced machine learning techniques, it accurately assesses the relevance and potential impact of each advertisement, optimizing targeting efforts while minimizing the risk of sending irrelevant or unwanted content. With its ability to enhance advertising campaign efficiency and effectiveness, the model is suitable to support the decision-making processes in marketing, driving better engagement and ultimately maximizing return on investment.
 
+# Limitations and suggestions for improvement
 
-# Improvements
+1. Data Collection Mechanism:
 
+A larger data set would definitely improve the quality of the resulting ML-model.
 
+2. Web app UI Refinement:
+
+Conducting usability testing and incorporating user feedback can improve web app intuitiveness and accessibility.
+
+3. Feature Engineering Refinement:
+
+Iteratively refining feature selection and engineering techniques can enhance model interpretability and robustness, potentially through advanced feature selection algorithms or domain-specific feature engineering strategies.
+
+4. Model Explainability:
+
+Integrating model interpretability techniques such as SHAP values or LIME can provide insights into model predictions and increase stakeholder trust and understanding.
+
+Implementing these improvements will enhance project performance and usability, ensuring long-term relevance and sustainability.
 
 # Acknowledgement
 
