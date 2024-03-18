@@ -67,13 +67,24 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 
 # Data Preprocessing
 
-During data preprocessing
+During data preprocessing, the following steps were conducted:
+
+1. Data cleaning:
+   - Remove NAs
+   - check for inconsistent data
+3. Feature Encoding:
+   - One-hot-encoding categorical variables
+   - changes of data type (dates)
+4. Feature Selection
+   - Removing not needed columns
+5. Feature engineering
+   - calculation of new features
 
 Here is an example of applying one-hot-encoded to a specific feature:
 
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/0be5b540-7620-4f02-bce1-7b83178107b3)
 
-Some other steps that are usually considered as Data Pre-Processing, are conducted during Hyper-Parameter tuning, e.g. 
+Some other steps that are usually considered as Data Pre-Processing, are conducted during Hyper-Parameter tuning, e.g. scaling of features and handling of imbalanced data (through scoring with balanced_accuracy).
 
 # Modeling
 
