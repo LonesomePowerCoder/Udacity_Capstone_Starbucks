@@ -45,6 +45,16 @@ For evaluation, the balanced accuracy score was used. The balanced accuracy scor
 
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/6ed1eb8e-1f81-403e-a0de-ce1d055a3b58)
 
+Linear correlation of Features to the response variable (offer_viewed)
+
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/6a19591b-87d0-4551-a96e-f5c97696b165)
+
+One important thing to mention about the response variable, is it's bias towards 1:
+
+![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/342d9974-d2e3-4ef6-843b-6bfeb7454736)
+
+There is several methods to account for this issue, e.g. using a specific metric during fitting or by applying sampling techniques like SMOTE. Please refer to section Metrics with justification for details.
+
 # Data & Code
 
 The datasets are json files, which were zipped due to filesize restrictions in Github. 
