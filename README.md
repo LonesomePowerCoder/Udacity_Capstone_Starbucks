@@ -39,8 +39,6 @@ The user of the web app is required to select between Q1 and Q2. Then, he or she
 
 For evaluation, the balanced accuracy score was used. The balanced accuracy score is an important metric, especially in scenarios where class imbalance exists within the dataset. Class imbalance refers to situations where the number of observations in each class is not evenly distributed. In such cases, accuracy alone might not be an adequate measure of model performance.
 
-
-
 # EDA
 
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/d7f03fa3-0bf3-4d8b-9cea-6f5a7e70ddf6)
@@ -69,11 +67,19 @@ The project was written in Python (IDE: PyCharm). The following public packackes
 
 # Data Preprocessing
 
+During data preprocessing
+
+Here is an example of applying one-hot-encoded to a specific feature:
+
 ![image](https://github.com/LonesomePowerCoder/Udacity_Capstone_Starbucks/assets/31338782/0be5b540-7620-4f02-bce1-7b83178107b3)
+
+Some other steps that are usually considered as Data Pre-Processing, are conducted during Hyper-Parameter tuning, e.g. 
 
 # Modeling
 
 For modelling, the random forest classifier was used as it performs quite well in classification tasks. Random Forest is an ensemble learning method used for classification and regression tasks. It builds multiple decision trees using bootstrapped samples and random feature selection. The final prediction is determined by aggregating the predictions of individual trees (mode for classification, average for regression).
+
+The advantage of random forest classification lies in its robustness to overfitting, ability to handle large datasets with high dimensionality, and capability to provide accurate predictions even in the presence of noisy or missing data. Additionally, random forests offer built-in feature importance measures, enabling the identification of key variables driving the classification process. Other classification algorithms, like Logistic Regression, have been tested and did not yield good results for the problem at hand.
 
 # Hyperparameter Tuning
 
